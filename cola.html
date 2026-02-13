@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cola</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Raleway", sans-serif
+}
+
+/* 图片悬停放大效果 */
+.zoom-box {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.zoom-box img {
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.zoom-box:hover img {
+  transform: scale(1.1);
+}
+</style>
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" 
+     style="z-index:3;width:300px;" id="mySidebar"><br>
+
+  <div class="w3-container">
+    <img src="image/me1.JPG" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Cola</b></h4>
+    <p class="w3-text-grey">About me</p>
+  </div>
+
+  <div class="w3-bar-block">
+    <a href="#portfolio" class="w3-bar-item w3-button w3-padding w3-text-teal">
+      <i class="fa fa-th-large fa-fw w3-margin-right"></i>PHOTOS
+    </a> 
+    <!-- Photography 按钮 -->
+<a href="#myPhotography" class="w3-bar-item w3-button w3-padding">
+  <i class="fa fa-user fa-fw w3-margin-right"></i>PHOTOGRAPHY
+</a> 
+    <a href="#contact" class="w3-bar-item w3-button w3-padding">
+      <i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT
+    </a>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="w3-main" style="margin-left:300px">
+
+<!-- Header -->
+<header id="portfolio">
+  <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+
+    <!-- Filter Buttons -->
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+
+      <a href="#portfolio">
+        <button class="w3-button w3-black">ALL</button>
+      </a>
+
+
+      <a href="#contact">
+        <button class="w3-button w3-white w3-hide-small">
+          <i class="fa fa-map-pin w3-margin-right"></i>Contact Me
+        </button>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- 第一部分 -->
+<div class="w3-container w3-padding-16">
+  <h2><b>My Photos</b></h2>
+</div>
+
+<div class="w3-row-padding">
+
+  <div class="w3-third w3-container w3-margin-bottom">
+    <div class="zoom-box">
+      <img src="image/me2.JPG" alt="Mountains">
+    </div>
+    <div class="w3-container w3-white">
+      <p><b>Royal Banquet Hall</b></p>
+      <p>A good place to have lunch.</p>
+    </div>
+  </div>
+
+  <div class="w3-third w3-container w3-margin-bottom">
+    <div class="zoom-box">
+      <img src="image/me.JPG" alt="City Lights">
+    </div>
+    <div class="w3-container w3-white">
+      <p><b>Castle</b></p>
+      <p>With beautiful painting.</p>
+    </div>
+  </div>
+
+  <div class="w3-third w3-container">
+    <div class="zoom-box">
+      <img src="image/me3.PNG" alt="Nature">
+    </div>
+    <div class="w3-container w3-white">
+      <p><b>Shop</b></p>
+      <p>With LinaBell.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- 第二部分 -->
+<!-- My Photography 标题 -->
+<div class="w3-container w3-padding-32" id="myPhotography">
+  <h2><b>My Photography</b></h2>
+</div>
+
+<div class="w3-row-padding">
+
+  <div class="w3-third w3-container w3-margin-bottom">
+    <div class="zoom-box">
+      <img src="image/food.jpeg" alt="Portrait">
+    </div>
+    <div class="w3-container w3-white">
+      <p><b>Dinner</b></p>
+      <p>Orleans seafood risto.</p>
+    </div>
+  </div>
+
+  <div class="w3-third w3-container w3-margin-bottom">
+    <div class="zoom-box">
+      <img src="image/picture.jpeg" alt="Architecture">
+    </div>
+    <div class="w3-container w3-white">
+      <p><b>Frozen</b></p>
+      <p>Elsa and Anna.</p>
+    </div>
+  </div>
+
+  <div class="w3-third w3-container">
+    <div class="zoom-box">
+      <img src="image/castle.jpeg" alt="Landscape">
+    </div>
+    <div class="w3-container w3-white">
+      <p><b>Castle</b></p>
+      <p>Castle outside.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- About Section -->
+<div class="w3-container w3-padding-large" id="about">
+  <h4><b>About Me</b></h4>
+  <p>
+    My name is Cola. I am a passionate photographer and designer. My hobbies are Calligraphy, Travel, Skydiving, Painting, Watching Movies, Listening to Music, Photography, Diving. As you can see, lots of picture of me are in Disney land, I like Disney very much. And I also like <a href="https://chiikawa-info.jp/" target="_blank" 
+       style="font-weight:bold; text-decoration:underline; color:sandybrown;">
+       chiikawa
+    </a>, especially Usagi. 
+    I'm studying Master of Arts in Corporate Communication at <a href="https://www.hkbu.edu.hk" target="_blank" style="font-weight:bold; text-decoration:underline; color:slategray;">
+      HKBU
+    </a>.
+</p>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-padding-large w3-grey" id="contact">
+  <h4><b>Contact Me</b></h4>
+  <p>Email: colaqill77@gmail.com</p>
+</div>
+
+</div>
+
+</body>
+</html>
